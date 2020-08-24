@@ -1,0 +1,8 @@
+
+1.Start
+2.Read a, b
+3.if(a>b) then
+     Display"a is the largest number"
+     otherwise
+             Display "b is the largest number
+4.Stop

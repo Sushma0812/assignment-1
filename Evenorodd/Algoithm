@@ -1,0 +1,5 @@
+1.Read a number
+2.If given number is divisible by 2
+    Display it is even
+    Otherwise
+    It is odd

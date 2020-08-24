@@ -19,7 +19,7 @@ public class SumandAverage{
     }
 }
 /*
-1.Read % numbers using array
+1.Read 5 numbers using array
 2.calculate sum of the elements
 3.Display sum
 4.Calculate average by dividing the sum with array length

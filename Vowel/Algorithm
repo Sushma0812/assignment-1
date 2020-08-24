@@ -1,0 +1,6 @@
+
+1.Read a string
+2.if the character of the third string is equal to a,e,i.o,u or A.E.I.O.U
+    Display it is a vowel
+    otherwise
+    it is a consonant
