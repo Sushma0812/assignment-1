@@ -1,19 +1,21 @@
 package com.stackroute;
-import java.util.Scanner;
 
+import java.util.Scanner;
+/*
+ *This class contains a method to find greatest number 
+ */
 public class Greatest {
 
     public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
-        int num1,num2;
+        Scanner reader = new Scanner(System.in);
+        int numberOne, numberTwo;
         System.out.println("Enter two numbers");
-        num1=s.nextInt();
-        num2=s.nextInt();
-        if(num1>num2){
-            System.out.println(num1+" is greatest number");
-        }
-        else{
-            System.out.println(num2+" is greattest number");
+        numberOne = reader.nextInt();
+        numberTwo = reader.nextInt();
+        if (numberOne > numberTwo) {
+            System.out.println(numberOne + " is greatest number");
+        } else {
+            System.out.println(numberTwo + " is greattest number");
         }
 
     }

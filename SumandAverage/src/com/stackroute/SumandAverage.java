@@ -1,20 +1,22 @@
 package com.stackroute;
 import java.util.Scanner;
-
-public class SumandAverage{
+/*
+ *This class contains method to find sum and average of array elements
+ */
+public class SumandAverage {
 
     public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
-        int arr1[]=new int[5];
-        int sum=0;
-        float avg;
-        for(int i=0;i<arr1.length;i++){
-            arr1[i]=s.nextInt();
-            sum=sum+arr1[i];
+        Scanner reader = new Scanner(System.in);
+        int array[] = new int[5];
+        int sum = 0;
+        float average
+        for (int i = 0; i < array.length; i++) {
+            array[i] = reader.nextInt();
+            sum = sum + array[i];                //calculates sum of array elements
         }
-        System.out.println("Sum is "+sum);
-        avg=sum/5;
-        System.out.println("Average is "+avg);
+        System.out.println("Sum is " + sum);
+        average = sum / 5;                         //calculates average of array elements
+        System.out.println("Average is " + average);
 
     }
 }

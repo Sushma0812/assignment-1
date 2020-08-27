@@ -1,15 +1,17 @@
 package com.stackroute;
 import java.util.Scanner;
-
+/*
+ *This class contains a method find quotient of two numbers
+ */
 public class Quotient {
 
     public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
-        int num1,num2;
+        Scanner reader = new Scanner(System.in);
+        int numberOne, numberTwo;
         System.out.println("Enter two numbers");
-        num1=s.nextInt();
-        num2=s.nextInt();
-        System.out.println("Quotient is "+(num1/num2));
+        numberOne = reader.nextInt();
+        numberTwo = reader.nextInt();
+        System.out.println("Quotient is " + (numberOne / numberTwo));      //calculates quotient of two numbers
     }
 }
 /*

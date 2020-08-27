@@ -1,20 +1,24 @@
 package com.stackroute;
+
 import java.util.Scanner;
 
+/*
+ *This class contains a method to find area of rectangle and square
+ */
 public class Area {
 
     public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
-        int len,breadth,area1,area2,side;
+        Scanner s = new Scanner(System.in);
+        int length, breadth, area_of_rectangle, area_of_square, side;
         System.out.println("Enter length and breadth");
-        len=s.nextInt();
-        breadth=s.nextInt();
-        area1=len*breadth;
-        System.out.println("Area of a rectangle is "+area1);
+        length = s.nextInt();
+        breadth = s.nextInt();
+        area_of_rectangle = length * breadth;              //calculates area of rectangle
+        System.out.println("Area of a rectangle is " + area_of_rectangle);
         System.out.println("Enter side of a square");
-        side=s.nextInt();
-        area2=side*side;
-        System.out.println("Area of a square is "+area2);
+        side = s.nextInt();
+        area_of_square = side * side;                   //calculate area of square
+        System.out.println("Area of a square is " + area_of_square);
 
 
     }

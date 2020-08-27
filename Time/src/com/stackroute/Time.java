@@ -1,17 +1,19 @@
 package com.stackroute;
 import java.util.Scanner;
-
-public class Time  {
+/*
+ *This class contatins a method calculate time of the journey
+ */
+public class Time {
 
     public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
-        int distance,speed;
+        Scanner reader = new Scanner(System.in);
+        int distance, speed;
         float time;
         System.out.println("Enter distance and speed");
-        distance=s.nextInt();
-        speed=s.nextInt();
-        time=distance/speed;
-        System.out.println("Time is "+time);
+        distance = reader.nextInt();
+        speed = reader.nextInt();
+        time = distance / speed;               //calculates time
+        System.out.println("Time is " + time);
 
     }
 }
